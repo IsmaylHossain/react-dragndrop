@@ -31,7 +31,7 @@ const handleDragEnd = (event) =>{
       <DndContext onDragEnd={handleDragEnd} collisionDetection={closestCorners}>
           
           <Cards task={tasks} ></Cards>
-      </DndContext>
+       </DndContext>
      </div>
   )
 }

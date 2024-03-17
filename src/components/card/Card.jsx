@@ -11,6 +11,7 @@ const Card = ({id,title}) => {
   return (
     <div ref={setNodeRef} {...attribute} {...listeners}
     style={style} className='bg-white shadow-black rounded-md w-full p-4 flex border-2 items-center justify-start touch-none '>
+      <div className=' w-7 text-center text-white mr-2   bg-cyan-500 rounded-full text-xl'><h1 >{id}</h1></div>
        <p>{title}</p>
     </div>
   )
